@@ -21,7 +21,7 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - [ ] Configurar a rota inicial (index)
 - [ ] Criar a View para a rota inicial
 - [ ] Registrar a rota inicial
-- [ ] Criar o arquivo index
+- [ ] Criar o arquivo index.html
 ## 📝 Licença
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
 [⬆ Voltar ao topo](#PersonalCheff)<br>
