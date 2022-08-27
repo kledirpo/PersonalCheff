@@ -17,7 +17,7 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - [X] Subir o Servidor e testar a aplicação
 - [X] Alterar o idioma para `pt-br`
 - [X] Alterar o timezone para `America/Sao_Paulo`
-- [ ] Registrar o App Receitas
+- [X] Registrar o App Receitas
 - [ ] Configurar a rota inicial (index)
 - [ ] Criar a View para a rota inicial
 - [ ] Registrar a rota inicial

@@ -9,5 +9,9 @@
 > #### python manage.py runserver
 > roda o projeto e inicia o servidor 
 
-> Alteração de Idioma e timezone, fica no arquivo settings
+> Alteração de Idioma e timezone, fica no arquivo settings.py
 > #### Proximo a linha 106
+
+
+> Cria o modulo(app) com o nome informado
+> #### python manage.py startapp NOME-DO-MODULO
