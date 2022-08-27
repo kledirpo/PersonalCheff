@@ -12,11 +12,11 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
     - [X] Instalar Visual Studio Code
 
 - [X] Criar e ativar o ambiente virtual
-- [ ] Instalar o Django
-- [ ] Criar o Projeto PersonalCheff
-- [ ] Subir o Servidor e testar a aplicação
-- [ ] Alterar o idioma para `pt-br`
-- [ ] Alterar o timezone para `America/Sao_Paulo`
+- [X] Instalar o Django
+- [X] Criar o Projeto PersonalCheff
+- [X] Subir o Servidor e testar a aplicação
+- [X] Alterar o idioma para `pt-br`
+- [X] Alterar o timezone para `America/Sao_Paulo`
 - [ ] Registrar o App Receitas
 - [ ] Configurar a rota inicial (index)
 - [ ] Criar a View para a rota inicial
@@ -26,6 +26,9 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 ### Criação e ativação do Venv(terminal cmd)
 >python -m venv .\venv\
 venv\Scripts\activate
+
+### Instalação do Django
+> python -m pip install django==3.2
 
 ## 📝 Licença
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
