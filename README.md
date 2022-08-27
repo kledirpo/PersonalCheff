@@ -18,6 +18,9 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - [X] Alterar o idioma para `pt-br`
 - [X] Alterar o timezone para `America/Sao_Paulo`
 - [X] Registrar o App Receitas
+```
+    Adicionado no arquivo settings.py, no tópico INSTALLED_APPS, adicionado guia para o aplicativo receitas
+````
 - [ ] Configurar a rota inicial (index)
 - [ ] Criar a View para a rota inicial
 - [ ] Registrar a rota inicial
