@@ -11,6 +11,17 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
     - [X] Instalar o Python
     - [X] Instalar Visual Studio Code
 
+- [ ] Criar e ativar o ambiente virtual
+- [ ] Instalar o Django
+- [ ] Criar o Projeto PersonalCheff
+- [ ] Subir o Servidor e testar a aplicação
+- [ ] Alterar o idioma para `pt-br`
+- [ ] Alterar o timezone para `America/Sao_Paulo`
+- [ ] Registrar o App Receitas
+- [ ] Configurar a rota inicial (index)
+- [ ] Criar a View para a rota inicial
+- [ ] Registrar a rota inicial
+- [ ] Criar o arquivo index
 ## 📝 Licença
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
 [⬆ Voltar ao topo](#PersonalCheff)<br>
