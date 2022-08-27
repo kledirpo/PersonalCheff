@@ -11,7 +11,7 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
     - [X] Instalar o Python
     - [X] Instalar Visual Studio Code
 
-- [ ] Criar e ativar o ambiente virtual
+- [X] Criar e ativar o ambiente virtual
 - [ ] Instalar o Django
 - [ ] Criar o Projeto PersonalCheff
 - [ ] Subir o Servidor e testar a aplicação
@@ -22,6 +22,11 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - [ ] Criar a View para a rota inicial
 - [ ] Registrar a rota inicial
 - [ ] Criar o arquivo index.html
+
+### Criação e ativação do Venv(terminal cmd)
+>python -m venv .\venv\
+venv\Scripts\activate
+
 ## 📝 Licença
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
 [⬆ Voltar ao topo](#PersonalCheff)<br>
