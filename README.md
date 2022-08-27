@@ -21,7 +21,7 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 ```
     Adicionado no arquivo settings.py, no tópico INSTALLED_APPS, adicionado guia para o aplicativo receitas
 ````
-- [ ] Configurar a rota inicial (index)
+- [X] Configurar a rota inicial (index)
 - [ ] Criar a View para a rota inicial
 - [ ] Registrar a rota inicial
 - [ ] Criar o arquivo index.html
