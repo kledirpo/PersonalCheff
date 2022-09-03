@@ -24,7 +24,7 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - [X] Configurar a rota inicial (index)
 - [X] Criar a View para a rota inicial
 - [X] Registrar a rota inicial
-- [ ] Criar o arquivo index.html
+- [X] Criar o arquivo index.html
 
 ### Criação e ativação do Venv(terminal cmd)
 >python -m venv .\venv\
