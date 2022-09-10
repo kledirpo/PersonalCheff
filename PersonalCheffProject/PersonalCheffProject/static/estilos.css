@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+    color: #181818;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagem-logo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+}
+.url-link{
+    text-decoration: none;
+}

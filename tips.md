@@ -15,3 +15,13 @@
 
 > Cria o modulo(app) com o nome informado
 > #### python manage.py startapp NOME-DO-MODULO
+
+> Para adicionar código python em uma pagina HTML podemos utilizar dois tipos de limitadorees
+- {% <codigopython> %} # Desta maneira o código é processado, porém não é exibido nada
+- {{ <codigopython> }} # Desta maneira é utilizada para o caso de querermos resgatar o valor do código python na pagina, um exemplo é printar o valor de uma variavel.
+> em todos os arquivos HTML que forem trabalhar com arquivos estaticos deve ser adicionado no começo do HTML o seguinte comando
+``` {% load static %}```
+
+>Por exemplo, caso formos adicionar uma imagem de uma logo, o código fica da seguinte maneira
+`` <img src="{% static 'logo.png' %}">``
+

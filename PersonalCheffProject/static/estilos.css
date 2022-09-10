@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+    color: #181818;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagem-logo{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+}

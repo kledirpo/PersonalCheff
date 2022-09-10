@@ -34,7 +34,7 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
     def index(request):
         return render(request,'index.html')
     ```
-- [ ] Integrar arquivos estáticos (CSS, JS)
+- [X] Integrar arquivos estáticos (CSS, JS, IMG)
 - [ ] Utilizando links
 - [ ] Criando o base.html
 - [ ] Separando em partials

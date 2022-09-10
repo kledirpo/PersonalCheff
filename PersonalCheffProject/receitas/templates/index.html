@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Cheff - Home</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+    <link rel="shortcut icon" href="{% static 'logo.png' %}" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
@@ -19,13 +22,16 @@
       </div>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
       </nav>
    
-   
+      <header>
+        <img src="{% static 'logo.png' %}" class="imagem-logo">
+      </header>
     <table class="table">
         <thead>
           <tr>
@@ -39,26 +45,26 @@
           <tr>
             <th scope="row">1</th>
             <td>Suco de Laranja</td>
-            <td><a href="https://www.youtube.com/watch?v=Zbm4LXnr3j8">Ver no Youtube</a></td>
-            <td><a href="sucodelaranja">Ver Receita Completa</td>
+            <td><a href="https://www.youtube.com/watch?v=Zbm4LXnr3j8" class="url-link">Ver no Youtube</a></td>
+            <td><a href="sucodelaranja" class="url-link">Ver Receita Completa</td>
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>Miojo</td>
-            <td><a href="https://www.youtube.com/watch?v=gM1uCD63wTs">Ver no Youtube</a></td>
-            <td><a href="miojo">Ver Receita Completa</a></td>
+            <td><a href="https://www.youtube.com/watch?v=gM1uCD63wTs" class="url-link">Ver no Youtube</a></td>
+            <td><a href="miojo" class="url-link">Ver Receita Completa</a></td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td>Bolo de Fuba</td>
-            <td><a href="https://www.youtube.com/watch?v=ukXdVZ4DmRw">Ver no Youtube</a></td>
-            <td><a href="bolodefuba">Ver Receita Completa</a></td>
+            <td><a href="https://www.youtube.com/watch?v=ukXdVZ4DmRw" class="url-link">Ver no Youtube</a></td>
+            <td><a href="bolodefuba" class="url-link">Ver Receita Completa</a></td>
           </tr>
           <tr>
             <th scope="row">4</th>
             <td>Salada</td>
-            <td><a href="https://www.youtube.com/watch?v=1jbFqjZrOBw">Ver no Youtube</a></td>
-            <td><a href="bolodefuba">Ver Receita Completa</a></td>
+            <td><a href="https://www.youtube.com/watch?v=1jbFqjZrOBw" class="url-link">Ver no Youtube</a></td>
+            <td><a href="bolodefuba" class="url-link">Ver Receita Completa</a></td>
           </tr>
         </tbody>
       </table>
