@@ -25,6 +25,29 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - [X] Criar a View para a rota inicial
 - [X] Registrar a rota inicial
 - [X] Criar o arquivo index.html
+    - Dentro da pasta receitas(app), crie a pasta `templates`
+    - Dentro da pasta `templates`crie seus arquivos HTML começando pelo `index.html`
+    - No arquivo `views.py` que está dentro da pasta do app faça a seguinte alteração de código: 
+    ```python
+    from django.shortcuts import render
+
+    def index(request):
+        return render(request,'index.html')
+    ```
+- [ ] Integrar arquivos estáticos (CSS, JS)
+- [ ] Utilizando links
+- [ ] Criando o base.html
+- [ ] Separando em partials
+- [ ] Renderizando dados dinamicamente
+- [ ] Criando um dicionario com as receitas
+- [ ] Criando o banco de dados(MySQL/MariaDB)
+- [ ] Instalando o conector do bando de dados MySQL
+- [ ] Criando o modelo da receita
+- [ ] Criando a migration (mapeamento)
+- [ ] Realizando a migration
+- [ ] Registrando um modelo no admin
+- [ ] Criando um usuário para o ambiente administrativo
+
 
 ### Criação e ativação do Venv(terminal cmd)
 >python -m venv .\venv\
