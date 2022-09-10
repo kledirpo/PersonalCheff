@@ -4,11 +4,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .imagem-logo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
 }
-h1{
-    text-align: center;
-    width: 1000px;
-    height: 1000px;
+.url-link{
+    text-decoration: none;
 }
