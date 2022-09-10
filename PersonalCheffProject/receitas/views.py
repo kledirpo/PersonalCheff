@@ -12,3 +12,8 @@ def sucodelaranja(request):
 def miojo(request):
     return render(request, 'miojo.html')
 
+def bolodefuba(request):
+    return render(request, 'bolodefuba.html')
+
+def salada(request):
+    return render(request, 'salada.html')
