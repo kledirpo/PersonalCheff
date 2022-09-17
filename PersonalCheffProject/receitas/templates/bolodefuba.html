@@ -1,25 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+{% include 'partials/header.html' %}
 
-<div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Personal Cheff</h5>
-      <span class="text-muted">Seu APP de Receitas</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
-
-  <header>
-    <img src="{% static 'logo.png' %}" class="imagem-logo">
-  </header>
   <p>
     <a href="{% url 'index' %}">Voltar</a>
   </p>
@@ -45,4 +28,8 @@
     <h3>Resultado</h3>
     <img src="https://s2.glbimg.com/GDADinKyW8a4LTtwZyXlG1OiP_E=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/w/I/HzhyCkTqm1UoDynv8XDQ/bolo-de-fuba-fofino.jpg" width="600" height="600">
  
+
+    {% include 'partials/footer.html' %}
     {% endblock %}
+
+   

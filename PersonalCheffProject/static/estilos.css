@@ -6,9 +6,22 @@ body{
 .imagem-logo{
     width: 150px;
     height: 150px;
+    position: relative;
     display: block;
     margin: 0px auto;
 }
 .url-link{
     text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+footer a{
+    color: lightcoral;
 }
