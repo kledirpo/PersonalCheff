@@ -27,4 +27,4 @@
 
 > Para adicionar uma URL para links de paginas utilizamos o seguinte comando
 
-``<a href="{% url 'index' %}">Voltar</a>``
+``<a href="{% url 'pagina' %}">NOME DA PAGINA</a>``
