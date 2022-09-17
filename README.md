@@ -35,8 +35,10 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
         return render(request,'index.html')
     ```
 - [X] Integrar arquivos estáticos (CSS, JS, IMG)
-- [ ] Utilizando links
-- [ ] Criando o base.html
+- [X] Utilizando links
+- [X] Criando o base.html
+- na pasta `templates` crie o arquivo `base.html`.
+- Este Arquivo contém todo o código de estrutura comum á todas as paginas. NEste arquivo deve ficar tudo que estiver antes do `body` e tudo que estiver depois do `/body`.
 - [ ] Separando em partials
 - [ ] Renderizando dados dinamicamente
 - [ ] Criando um dicionario com as receitas
