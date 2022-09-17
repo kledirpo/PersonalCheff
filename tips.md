@@ -25,3 +25,6 @@
 >Por exemplo, caso formos adicionar uma imagem de uma logo, o código fica da seguinte maneira
 `` <img src="{% static 'logo.png' %}">``
 
+> Para adicionar uma URL para links de paginas utilizamos o seguinte comando
+
+``<a href="{% url 'index' %}">Voltar</a>``
