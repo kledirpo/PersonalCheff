@@ -28,3 +28,18 @@
 > Para adicionar uma URL para links de paginas utilizamos o seguinte comando
 
 ``<a href="{% url 'pagina' %}">NOME DA PAGINA</a>``
+
+
+
+> Padrão de exemplo para estrutura de projeto
+- Static
+    style.css
+    app.js
+    img
+
+- templates
+    index.html
+    partials
+        header.html
+        menu.html
+        footer.html 
