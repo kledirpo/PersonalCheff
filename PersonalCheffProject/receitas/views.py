@@ -17,3 +17,8 @@ def bolodefuba(request):
 
 def salada(request):
     return render(request, 'salada.html')
+
+def contato(request):
+    return render(request, 'contato.html')
+
+    
