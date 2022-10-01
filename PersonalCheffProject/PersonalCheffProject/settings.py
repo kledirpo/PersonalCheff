@@ -76,6 +76,8 @@ WSGI_APPLICATION = 'PersonalCheffProject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
+#Este campo é o responsavel por conectar ao banco de dados.
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',

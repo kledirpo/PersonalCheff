@@ -42,15 +42,15 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - Neste arquivo deve conter o `{% load static %}
 - Neste arquivo, no local onde será carregado o conteudo das outras paginas, deve existir os delimitadores `{% block content %} e `{% endblock %}
 - [X] Separando em partials
-- [] Renderizando dados dinamicamente
-- [ ] Criando um dicionario com as receitas
-- [ ] Criando o banco de dados(MySQL/MariaDB)
-- [ ] Instalando o conector do bando de dados MySQL
-- [ ] Criando o modelo da receita
-- [ ] Criando a migration (mapeamento)
-- [ ] Realizando a migration
-- [ ] Registrando um modelo no admin
-- [ ] Criando um usuário para o ambiente administrativo
+- [x] Renderizando dados dinamicamente
+- [x] Criando um dicionario com as receitas
+- [x] Criando o banco de dados(MySQL/MariaDB)
+- [X] Instalando o conector do bando de dados MySQL
+- [X] Criando o modelo da receita
+- [X] Criando a migration (mapeamento)
+- [X] Realizando a migration
+- [X] Registrando um modelo no admin
+- [X] Criando um usuário para o ambiente administrativo
 
 
 ### Criação e ativação do Venv(terminal cmd)
