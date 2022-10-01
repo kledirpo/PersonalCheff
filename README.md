@@ -42,7 +42,7 @@ Segue a lista de tarefas a serem desenvolvidas no projeto:
 - Neste arquivo deve conter o `{% load static %}
 - Neste arquivo, no local onde será carregado o conteudo das outras paginas, deve existir os delimitadores `{% block content %} e `{% endblock %}
 - [X] Separando em partials
-- [ ] Renderizando dados dinamicamente
+- [] Renderizando dados dinamicamente
 - [ ] Criando um dicionario com as receitas
 - [ ] Criando o banco de dados(MySQL/MariaDB)
 - [ ] Instalando o conector do bando de dados MySQL
